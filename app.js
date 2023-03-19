@@ -23,3 +23,23 @@ function getToTop() {
 }
 
 backButton.addEventListener('click', getToTop)
+
+
+function mobileNav() {
+    let x = document.getElementById("nav-bar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+
+  function heroScroll () {
+    let hero = document.querySelector('.hero')
+      hero.style.backgroundSize = 180 - +window.pageYOffset/12+'%'
+      hero.style.opacity = 1 - +window.pageYOffset/600 + '' 
+    }
+  
+  window.addEventListener('scroll', heroScroll)
+ 

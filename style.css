@@ -51,7 +51,7 @@ nav a.active {
   
  nav .icon {
     display: none;
-    padding-top: 2.5rem; 
+    padding: 2.5rem;
   } 
 
 
@@ -76,8 +76,7 @@ h2 {
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    font-family: cursive;
-    color: darkorange;
+    color: orange;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -99,8 +98,6 @@ a {
 
 .project-title-wrapper {
     text-align: center; 
-    color:darksalmon;
-    font-family: cursive;
 }
 
 .projects-content a {

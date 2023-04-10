@@ -25,14 +25,14 @@ function getToTop() {
 backButton.addEventListener('click', getToTop)
 
 
-function mobileNav() {
+ function mobileNav() {
     let x = document.getElementById("nav-bar");
     if (x.className === "topnav") {
       x.className += " responsive";
     } else {
       x.className = "topnav";
     }
-  }
+  } 
 
 
   function heroScroll () {
